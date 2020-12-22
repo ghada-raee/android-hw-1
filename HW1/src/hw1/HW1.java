@@ -18,7 +18,8 @@ public class HW1 {
         // TODO code application logic here
         String name = "غادة";
         int age = 20;
-        legalage(name,age);
+        for(int i=0;i<3;i++)
+            legalage(name,age);
         
     }
     public static void legalage(String name, int age){
